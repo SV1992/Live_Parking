@@ -1,72 +1,69 @@
+/* Estilos generales */
 body {
     font-family: Arial, sans-serif;
     background-image: url(img/foto.jpg);
     background-size: cover;
-    background-repeat: repeat-x ;
+    background-repeat: no-repeat;
     margin: 0;
     padding: 0;
 }
+
+/* Encabezado */
 .header-container {
     display: flex;
     align-items: center;
-    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    /* Para centrar verticalmente en dispositivos móviles */
 }
 
 header {
     color: #fff;
     text-align: center;
-    align-items: center;
-}
-.logo {
-    margin-right: 20px;
-    display: flex;
-    align-items: center;
 }
 
+.logo {
+    margin-bottom: 20px;
+    /* Separación entre el logotipo y el título en dispositivos móviles */
+}
+
+/* Títulos */
 h1 {
     color: rgb(21, 15, 16);
     background-color: #c7dcca;
-    margin: 0px;
-    padding: 0px;
+    margin: 0;
+    padding: 10px;
+    /* Añadir un poco de espacio alrededor del título */
 }
+
 h2 {
     color: rgb(255, 255, 255);
     background-color: rgba(11, 38, 38, 0.823);
-    margin: 30px;
-    padding: 90px;
+    margin: 20px 0;
+    /* Espacio superior e inferior en dispositivos móviles */
+    padding: 30px;
     transition: 4s;
-}
-.myv {
-    color: rgb(255, 255, 255);
-    background-color: rgba(11, 38, 38, 0.823);
-    margin: 5px;
-    padding: 10px;
-    transition: 4s;
-    text-align: center; 
+    font-size: 20px;
+    /* Reducir el tamaño de fuente en dispositivos móviles */
 }
 
-.myv:nth-child(1) {
-    background-color: rgba(172, 144, 144, 0.5); 
-}
-
-.myv:nth-child(2) {
-    background-color: rgba(135, 135, 161, 0.5);
-}
-
+/* Contenedor principal */
 .container {
-    max-width: 800px;
-    margin: 20px auto;
+    max-width: 100%;
+    /* Ajustar al ancho de la pantalla */
+    margin: 20px;
     padding: 20px;
     background-color: #fff;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-    float: left;
 }
 
+/* Lista de botones */
 .button-list {
-    background-color: rgba(191, 187, 209, 0.5);;
+    background-color: rgba(191, 187, 209, 0.5);
     margin: 10px;
-    padding: 50px;
+    padding: 20px;
+    /* Reducir el espacio de relleno en dispositivos móviles */
     transition: 4s;
 }
 
@@ -74,14 +71,13 @@ h2 {
     margin-bottom: 10px;
 }
 
+/* Botones */
 .button {
     margin: 10px;
-    padding: 15px 30px;
-    font-size: 18px;
-    background-color: #136f36;
-    color: #fff;
-    border: none;
-    border-radius: 5px;
+    padding: 10px 20px;
+    /* Reducir el espacio de relleno en dispositivos móviles */
+    font-size: 16px;
+    /* Reducir el tamaño de fuente en dispositivos móviles */
     cursor: pointer;
     transition: background-color 0.3s ease;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
@@ -99,12 +95,17 @@ h2 {
     outline: none;
 }
 
-h2 {
-    margin-top: 20px;
-    font-size: 24px;
-}
+/* Cambiar el tamaño de fuente para dispositivos móviles */
+@media screen and (max-width: 768px) {
+    h1 {
+        font-size: 18px;
+    }
 
-p {
-    font-size: 16px;
-    line-height: 1.5;
+    h2 {
+        font-size: 18px;
+    }
+
+    .button {
+        font-size: 14px;
+    }
 }
