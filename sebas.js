@@ -24,5 +24,5 @@ tarjetasButton.addEventListener('click', function () {
 
 const revistaButton = document.getElementById('revista');
 revistaButton.addEventListener('click', function () {
-    abrirPDF('https://drive.google.com/file/d/1Y0_g-AORSn6Fn8EKLJ35dhdoj901igN9/view?usp=drive_link');
+    abrirPDF('https://heyzine.com/flip-book/d71f70ab3a.html');
 });
