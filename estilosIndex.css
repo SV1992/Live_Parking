@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    background-image: url(img/foto.jpg);
+    background-image: url(img/foto.png);
     background-size: cover;
     background-repeat: repeat-x ;
     margin: 0;
@@ -86,6 +86,7 @@ h2 {
     transition: background-color 0.3s ease;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
+
 .button:hover {
     background-color: #0056b3;
 }
@@ -93,26 +94,17 @@ h2 {
 .button:active {
     transform: translateY(2px);
 }
+
 .button:focus {
     outline: none;
 }
+
 h2 {
     margin-top: 20px;
     font-size: 24px;
 }
+
 p {
     font-size: 16px;
     line-height: 1.5;
-}
-
-@media screen and (max-width: 768px) {
-    h1 {
-        font-size: 18px;
-    }
-    h2 {
-        font-size: 18px;
-    }
-    .button {
-        font-size: 14px;
-    }
 }
