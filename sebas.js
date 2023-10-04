@@ -18,15 +18,15 @@ sebasButton.addEventListener('click', function () {
 
 const pendonButton = document.getElementById('pendon');
 pendonButton.addEventListener('click', function () {
-    abrirPDF('https://drive.google.com/file/d/1eYBZ3nClGoZojTagXqhBShF3ryk9Ka_F/view?usp=drive_link');
+    abrirPDF('https://drive.google.com/file/d/1_Bzhj4FXRMPdm01_LaM8HAUAlg8W-wal/view?usp=drive_link');
 });
 
 const tarjetasButton = document.getElementById('tarjeta');
 tarjetasButton.addEventListener('click', function () {
-    abrirPDF('https://drive.google.com/file/d/1g-N6YGbZKpx-3HgmH0IQfFzAlusFLnwc/view?usp=drive_link');
+    abrirPDF('https://drive.google.com/file/d/1ziYFfH_eSP-3GpLAawdKI59-H7hPTx-g/view?usp=drive_link');
 });
 
 const revistaButton = document.getElementById('revista');
 revistaButton.addEventListener('click', function () {
-    abrirPDF('https://heyzine.com/flip-book/d71f70ab3a.html');
+    abrirPDF('https://drive.google.com/file/d/1YKuIv-oo1rRaG5ir8V0aUD1JmRiu85jk/view?usp=drive_link');
 });
